@@ -43,6 +43,11 @@ parisTimeElement.innerHTML = parisTime.format("h:mm:ss [<small>]A[</small>]");
 
 }
 
+
+function updateCity(event){
+   
+}
+
 updateTime();
 setInterval(updateTime, 1000);
 
@@ -51,3 +56,5 @@ setInterval(updateTime, 1000);
 
 
 
+let citiesSelectElement = document.querySelector("#selectCity");
+citiesSelect.addEventListener("change, updateCity");
