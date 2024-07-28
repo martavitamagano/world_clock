@@ -68,7 +68,7 @@ function updateCity(event){
           <h2>${cityName}</h2>
           <div class="timeElements">
             <div class="time">${cityTime.format("h:mm:ss [<small>]A[</small>]")}</div>
-            <div class="date">${cityTime.format("MMMM do YYYY")}</div>
+            <div class="date">${cityTime.format("MMMM Do YYYY")}</div>
           </div>
           <a href="/" class="back" >←</a>
           `;
@@ -88,6 +88,6 @@ setInterval(updateTime, 1000);
 
 
 
-let citiesSelectElement = document.querySelector("#selectCity");
+let citiesSelectElement = document.querySelector("#city");
 
 citiesSelectElement.addEventListener("change", updateCity);
