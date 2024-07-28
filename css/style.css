@@ -55,7 +55,10 @@ body{  background-color: rgb(199, 199, 199);
         font-size: 18px;
 }
 
-
+.backLink{
+    text-decoration: none;
+    font-size: 20px;
+}
 footer{
     text-align: center;
     margin-top: 25px;

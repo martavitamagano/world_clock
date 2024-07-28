@@ -70,7 +70,7 @@ function updateCity(event){
             <div class="time">${cityTime.format("h:mm:ss [<small>]A[</small>]")}</div>
             <div class="date">${cityTime.format("MMMM do YYYY")}</div>
           </div>
-          <a href="/">🔙</a>
+          <a href="/" class="backLink" >🔙</a>
           `;
 
           
